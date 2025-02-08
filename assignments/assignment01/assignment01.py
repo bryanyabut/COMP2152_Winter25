@@ -1,3 +1,7 @@
+
+###########################
+######IGNORE THIS FILE#####
+###########################
 '''
 AUTHOR: BRYAN PAUL YABUT
 ASSIGNMENT 1
@@ -31,3 +35,12 @@ totals = {name: sum(times) for name, times in workout_stats.items()}
 
 for name, total in totals.items():
     print(f"{name}: {total} minutes")
+
+"""
+        yoga  running  weight lifting
+Alex:  [30,    45,       20]
+Jamie: [10,    50,       35]
+Taylor:[5,     32,       21]
+"""
+
+workout_list = [list(times) for times in workout_stats.values()]
