@@ -152,7 +152,7 @@ def load_game():
         with open("save.txt", "r") as file:
             print("   |  Loading from the saved file..")
             lines = file.readlines()
-            if lined:
+            if lines:
                 last_line = lines[-1].strip()
                 print(last_line)
                 return last_line
